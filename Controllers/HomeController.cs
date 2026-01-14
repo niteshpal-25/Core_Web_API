@@ -20,6 +20,9 @@ namespace WebApplication2.Controllers
 
         public IActionResult Privacy()
         {
+            string Name = "Ram";
+            string Batch = "098";
+            ViewBag.Name=Name;  
             return View();
         }
 
